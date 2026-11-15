@@ -38,10 +38,10 @@ Di notebook dan README ada tulisan `USERNAME` dan `NAMA-REPO` yang harus diganti
 ### Cara A — `github.dev` (paling mudah, tanpa install apa-apa)
 1. Buka halaman utama repo, lalu **tekan tombol titik `.` di keyboard** (atau ganti `github.com` di address bar menjadi `github.dev`). Editor VS Code terbuka di browser.
 2. Tekan **Ctrl + Shift + H** (Mac: Cmd + Shift + H) → muncul *Search: Replace across files*.
-3. Pada kolom atas ketik `USERNAME/NAMA-REPO`, kolom bawah isi `usernamemu/nama-repomu` (contoh `budi-santoso/proyek-udara-kelompok12`) → klik ikon **Replace All** (ikon dua kotak/panah di sebelah kanan) → konfirmasi.
+3. Pada kolom atas ketik `Tur-ai/udara-mobilitas-statsprob`, kolom bawah isi `usernamemu/nama-repomu` (contoh `budi-santoso/proyek-udara-kelompok12`) → klik ikon **Replace All** (ikon dua kotak/panah di sebelah kanan) → konfirmasi.
 4. Ulangi untuk dua baris ini:
-   - cari `GITHUB_USER = "USERNAME"` → ganti `GITHUB_USER = "usernamemu"`
-   - cari `GITHUB_REPO = "NAMA-REPO"` → ganti `GITHUB_REPO = "nama-repomu"`
+   - cari `GITHUB_USER = "Tur-ai"` → ganti `GITHUB_USER = "usernamemu"`
+   - cari `GITHUB_REPO = "udara-mobilitas-statsprob"` → ganti `GITHUB_REPO = "nama-repomu"`
 5. Buka ikon **Source Control** (cabang di sisi kiri) → ketik pesan `Ganti placeholder` → klik **Commit & Push** (✔).
 
 ### Cara B — jalankan skrip (butuh Python di laptop)

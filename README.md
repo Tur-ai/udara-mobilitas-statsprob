@@ -51,16 +51,16 @@ Satu orang = satu peran utama. Baca file panduan peranmu **dulu**, baru buka not
 7. Kerjakan notebook peranmu, ikuti jadwal di [`docs/03_jadwal_dan_alur_kerja.md`](docs/03_jadwal_dan_alur_kerja.md).
 
 ### Buka notebook di Colab
-> Setelah `USERNAME/NAMA-REPO` diganti, klik tombolnya. Kalau repo *Private*, Colab akan meminta kamu mengizinkan akses GitHub.
+> Setelah `Tur-ai/udara-mobilitas-statsprob` diganti, klik tombolnya. Kalau repo *Private*, Colab akan meminta kamu mengizinkan akses GitHub.
 
 | Notebook | Pemilik | Buka |
 |---|---|---|
-| 00 Kenalan dengan data | semua | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/NAMA-REPO/blob/main/notebooks/00_Kenalan_Dengan_Data.ipynb) |
-| 01 Data Engineer | Peran 2 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/NAMA-REPO/blob/main/notebooks/01_Data_Engineer.ipynb) |
-| 02a Peluang & distribusi | Peran 3 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/NAMA-REPO/blob/main/notebooks/02a_Probability_Peluang_Distribusi.ipynb) |
-| 02b Inferensi & uji hipotesis | Peran 3 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/NAMA-REPO/blob/main/notebooks/02b_Inference_Uji_Hipotesis.ipynb) |
-| 03 Regresi | Peran 4 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/NAMA-REPO/blob/main/notebooks/03_Regression_Modeling.ipynb) |
-| 04 Visualisasi | Peran 5 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/NAMA-REPO/blob/main/notebooks/04_Data_Visualizer.ipynb) |
+| 00 Kenalan dengan data | semua | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tur-ai/udara-mobilitas-statsprob/blob/main/notebooks/00_Kenalan_Dengan_Data.ipynb) |
+| 01 Data Engineer | Peran 2 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tur-ai/udara-mobilitas-statsprob/blob/main/notebooks/01_Data_Engineer.ipynb) |
+| 02a Peluang & distribusi | Peran 3 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tur-ai/udara-mobilitas-statsprob/blob/main/notebooks/02a_Probability_Peluang_Distribusi.ipynb) |
+| 02b Inferensi & uji hipotesis | Peran 3 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tur-ai/udara-mobilitas-statsprob/blob/main/notebooks/02b_Inference_Uji_Hipotesis.ipynb) |
+| 03 Regresi | Peran 4 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tur-ai/udara-mobilitas-statsprob/blob/main/notebooks/03_Regression_Modeling.ipynb) |
+| 04 Visualisasi | Peran 5 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tur-ai/udara-mobilitas-statsprob/blob/main/notebooks/04_Data_Visualizer.ipynb) |
 
 ---
 
@@ -87,7 +87,7 @@ flowchart LR
 
 ```
 ├── README.md                     ← kamu di sini
-├── setup_repo.py                 ← (opsional) skrip ganti USERNAME/NAMA-REPO sekaligus
+├── setup_repo.py                 ← (opsional) skrip ganti Tur-ai/udara-mobilitas-statsprob sekaligus
 ├── data/
 │   ├── Kelompok_12_Tema_B_Kualitas_Udara.csv   ← data asli (JANGAN DIUBAH)
 │   ├── Kelompok_12_data_bersih.csv             ← akan dibuat Peran 2
