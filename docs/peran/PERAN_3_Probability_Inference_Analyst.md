@@ -2,10 +2,10 @@
 *(Peluang bersyarat, distribusi, CI & uji hipotesis)*
 
 ## Kamu di proyek ini
-Kamu **detektif statistik**. Kamu menjawab "seberapa mungkin?" dan "apakah perbedaan ini nyata atau cuma kebetulan?". Beban kerjamu paling berat di **Minggu 2–3**, jadi **mulailah belajar dari Minggu 1** (data draf sudah bisa dipakai berlatih).
+Kamu **detektif statistik**. Kamu menjawab "seberapa mungkin?" dan "apakah perbedaan ini nyata atau cuma kebetulan?". Beban kerjamu paling berat di **Tahap 2–3**, jadi **mulailah belajar dari Tahap 1** (data draf sudah bisa dipakai berlatih).
 
 ## Hasil akhir yang harus kamu serahkan
-| Minggu | File | Isi |
+| Tahap | File | Isi |
 |---|---|---|
 | 2 | `notebooks/02a_Probability_Peluang_Distribusi.ipynb` | peluang empiris, Normal, Binomial |
 | 2 | `outputs/tables/02_*.csv`, `outputs/figures/02_*.png` | tabel & gambar |
@@ -15,24 +15,24 @@ Kamu **detektif statistik**. Kamu menjawab "seberapa mungkin?" dan "apakah perbe
 
 ## Langkah demi langkah
 
-### Minggu 1 — Belajar (jangan dilewatkan)
+### Tahap 1 — Belajar (jangan dilewatkan)
 1. Jalankan `00_Kenalan_Dengan_Data`.
 2. Pelajari konsep di bagian "Konsep" di bawah. Targetnya: bisa menjelaskan **p-value**, **H0/H1**, dan **peluang bersyarat** ke teman dengan kata-kata sendiri.
 3. Buka `02a` dan `02b`, jalankan dengan data draf (akan muncul peringatan DRAF) untuk melihat alurnya. Belum perlu menulis interpretasi.
 
-### Minggu 2 — `02a` (setelah data bersih resmi ada)
+### Tahap 2 — `02a` (setelah data bersih resmi ada)
 4. Mulai sesi Colab baru; jalankan SETUP; pastikan tertulis **DATA BERSIH RESMI**.
 5. **Bagian A (peluang):** jalankan; ganti/tambah kejadian sesuai pikiranmu (≥ 3 peluang, ≥ 2 bersyarat). Tulis interpretasi ✏️.
 6. **Bagian B (Normal):** lihat histogram, Q-Q plot, Shapiro. Tulis kesimpulan: *cukup normal atau tidak, dan kenapa.* Hitung 2 skenario (default: P(>65) dan P(≤35)) dan bandingkan dengan proporsi sebenarnya.
 7. **Bagian C (Binomial):** pahami kenapa n = 20 dan "sukses" = Tidak Sehat. Isi interpretasi.
 8. Jalankan `unduh_hasil`, upload ke GitHub, simpan notebook, kabari Peran 6 & Peran 2 (untuk cek silang).
 
-### Minggu 3 — `02b`
+### Tahap 3 — `02b`
 9. **CI** (A): paham rumus; tulis interpretasi. 
 10. **t-test, ANOVA, Chi-Square** (B, C, D): untuk **tiap** uji isi tabel ✏️: H0, H1, statistik, p-value, keputusan, interpretasi sehari-hari.
 11. Jika ANOVA signifikan, baca hasil **Tukey** pasangan per pasangan.
 12. Upload, kabari. Kirim `03_ringkasan_uji_hipotesis.csv` ke Peran 6 dan Peran 1.
-13. Minggu 4: duduk bersama Peran 6 satu sesi untuk menjelaskan hasil agar tidak salah terjemah.
+13. Tahap 4: duduk bersama Peran 6 satu sesi untuk menjelaskan hasil agar tidak salah terjemah.
 
 ## Konsep yang harus kamu pahami
 

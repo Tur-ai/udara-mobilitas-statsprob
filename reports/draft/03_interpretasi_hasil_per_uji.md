@@ -1,25 +1,25 @@
 # 3. Interpretasi Hasil per Analisis
-*(Pemilik: Peran 6, angka dari Peran 3 & 4 · Target: Minggu 2–4)*
+*(Pemilik: Peran 6, angka dari Peran 3 & 4 · Target: Tahap 2–4)*
 
 Untuk setiap analisis, isi tabel lalu tulis **interpretasi 4 kalimat** (pertanyaan → hasil → seberapa yakin → artinya).
 Angka diambil dari `outputs/tables/` (jangan diketik dari ingatan).
 
-## Peluang (Minggu 2)
+## Peluang (Tahap 2)
 | Kejadian | Peluang | Arti dalam kalimat |
 |---|---|---|
 | P(Tidak Sehat) | | |
 | P(Tidak Sehat \| Jam Sibuk) | | |
 | … | | |
 
-## Normal & Binomial (Minggu 2)
+## Normal & Binomial (Tahap 2)
 - Kecocokan normal: …
 - Peluang skenario: …
 - Binomial (n = 20): …
 
-## Confidence Interval (Minggu 3)
+## Confidence Interval (Tahap 3)
 …
 
-## Uji-t (Minggu 3)
+## Uji-t (Tahap 3)
 | H0 | |
 |---|---|
 | H1 | |
@@ -28,7 +28,7 @@ Angka diambil dari `outputs/tables/` (jangan diketik dari ingatan).
 | Keputusan | |
 | Interpretasi sehari-hari | |
 
-## ANOVA + Tukey (Minggu 3)
+## ANOVA + Tukey (Tahap 3)
 | H0 | |
 |---|---|
 | H1 | |
@@ -38,7 +38,7 @@ Angka diambil dari `outputs/tables/` (jangan diketik dari ingatan).
 | Tukey (pasangan beda) | |
 | Interpretasi sehari-hari | |
 
-## Chi-Square (Minggu 3)
+## Chi-Square (Tahap 3)
 | H0 | |
 |---|---|
 | H1 | |
@@ -47,7 +47,7 @@ Angka diambil dari `outputs/tables/` (jangan diketik dari ingatan).
 | Keputusan | |
 | Interpretasi sehari-hari | |
 
-## Regresi (Minggu 4)
+## Regresi (Tahap 4)
 - Persamaan: …
 - R² / Adj R²: …
 - Uji-F / Uji-t: …

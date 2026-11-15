@@ -7,20 +7,20 @@ Kamu **jembatan antara angka dan manusia**. Temanmu menghasilkan "t = 8.24, p < 
 ## Hasil akhir yang harus kamu serahkan
 | File | Isi | Kapan |
 |---|---|---|
-| `reports/draft/02_metodologi_pembersihan_data.md` | bahasa jelas dari log Peran 2 | Minggu 1 |
-| `reports/draft/03_interpretasi_hasil_per_uji.md` | untuk SETIAP analisis: H0, H1, statistik, p, keputusan, **interpretasi bahasa sehari-hari** | Minggu 2–4 |
-| Polesan `04_kesimpulan_dan_rekomendasi.md` | rekomendasi bahasa kebijakan/bisnis (dari Peran 1) | Minggu 4 |
-| Naskah presentasi 5 menit + daftar tanya-jawab | | Minggu 4 |
+| `reports/draft/02_metodologi_pembersihan_data.md` | bahasa jelas dari log Peran 2 | Tahap 1 |
+| `reports/draft/03_interpretasi_hasil_per_uji.md` | untuk SETIAP analisis: H0, H1, statistik, p, keputusan, **interpretasi bahasa sehari-hari** | Tahap 2–4 |
+| Polesan `04_kesimpulan_dan_rekomendasi.md` | rekomendasi bahasa kebijakan/bisnis (dari Peran 1) | Tahap 4 |
+| Naskah presentasi 5 menit + daftar tanya-jawab | | Tahap 4 |
 | Ringkasan eksekutif (untuk laporan) | 1 halaman | menyusul |
 
 ## Langkah demi langkah
 
-### Minggu 1
+### Tahap 1
 1. Jalankan `00_Kenalan_Dengan_Data`. Baca `data/README.md` dan `docs/04_glosarium.md`.
 2. Setelah Peran 2 mengirim log, tulis `02_metodologi_pembersihan_data.md`: *apa masalah di data → apa yang kami lakukan → kenapa → dampaknya.* Tanyakan ke Peran 2 bila ada alasan yang belum jelas.
 3. **Buddy check Peran 5:** cocokkan angka di tabel dan grafik; cek judul grafik tidak melebih-lebihkan.
 
-### Minggu 2 dan 3
+### Tahap 2 dan 3
 4. Setelah Peran 3 meng-upload hasil, isi `03_interpretasi_hasil_per_uji.md`. Untuk tiap uji gunakan **resep 4 kalimat**:
    1. **Pertanyaan** (apa yang ingin diketahui?)
    2. **Hasil** (angka kunci: rata-rata/proporsi, selisih)
@@ -28,7 +28,7 @@ Kamu **jembatan antara angka dan manusia**. Temanmu menghasilkan "t = 8.24, p < 
    4. **Artinya** (apa implikasinya bagi kota/warga)
 5. Duduk 15 menit dengan Peran 3: bacakan interpretasimu → minta dikoreksi istilah statistiknya (buddy check).
 
-### Minggu 4
+### Tahap 4
 6. Ambil rekomendasi mentah Peran 1 → ubah menjadi bahasa kebijakan/bisnis: **siapa**, **apa**, **di mana**, **kapan**, **indikator keberhasilan**, **perkiraan dampak** (pakai angka what-if Peran 4).
 7. Tulis **naskah presentasi 5 menit** (struktur di bawah) + latihan dengan stopwatch.
 8. Susun daftar **15 pertanyaan tanya-jawab** dari "Pertanyaan yang mungkin ditanya dosen" di 6 file peran; bagikan ke semua untuk dilatih.
@@ -84,7 +84,7 @@ Kamu **jembatan antara angka dan manusia**. Temanmu menghasilkan "t = 8.24, p < 
 
 ## ✅ Checklist
 - [ ] Metodologi pembersihan data (bahasa jelas)
-- [ ] Interpretasi tiap analisis (resep 4 kalimat) — Minggu 2, 3, 4
+- [ ] Interpretasi tiap analisis (resep 4 kalimat) — Tahap 2, 3, 4
 - [ ] Interpretasi sudah diperiksa Peran 3
 - [ ] Rekomendasi berbahasa kebijakan/bisnis dengan angka pendukung
 - [ ] Naskah presentasi 5 menit + latihan dengan stopwatch

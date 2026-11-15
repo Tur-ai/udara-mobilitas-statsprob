@@ -2,7 +2,7 @@
 *(Pembersihan missing values & penanganan outlier)*
 
 ## Kamu di proyek ini
-Kamu **koki persiapan**: sebelum chef (analis) memasak, kamu mencuci, memilah, dan membuang bagian yang rusak. Kalau datanya kotor, semua hasil teman-temanmu ikut salah. Pekerjaanmu juga yang **paling ditunggu** orang lain — usahakan selesai dalam 3–4 hari pertama.
+Kamu **koki persiapan**: sebelum chef (analis) memasak, kamu mencuci, memilah, dan membuang bagian yang rusak. Kalau datanya kotor, semua hasil teman-temanmu ikut salah. Pekerjaanmu juga yang **paling ditunggu** orang lain — **targetnya selesai paling lambat Hari 3** dari 14 hari (idealnya Hari 2).
 
 ## Hasil akhir yang harus kamu serahkan
 | File | Untuk siapa |
@@ -18,7 +18,7 @@ Kamu **koki persiapan**: sebelum chef (analis) memasak, kamu mencuci, memilah, d
 
 ## Langkah demi langkah
 
-### Minggu 1
+### Tahap 1
 1. Buka & jalankan `00_Kenalan_Dengan_Data` (10 menit). Pahami arti tiap kolom.
 2. Buka `01_Data_Engineer` di Colab. Jalankan **satu sel per satu**. Setelah tiap sel, tanyakan ke diri sendiri: *"apa yang baru saja terjadi pada datanya?"*
 3. **Skala pengukuran:** baca tabel usulan & alasannya. Pastikan kamu bisa menjelaskan kenapa suhu = **interval** sementara volume kendaraan = **rasio**.
@@ -30,10 +30,10 @@ Kamu **koki persiapan**: sebelum chef (analis) memasak, kamu mencuci, memilah, d
 9. **Kabari grup:** "Data bersih sudah ada di GitHub, semua mulai sesi baru & jalankan ulang."
 10. Kirim ke Peran 6: isi `outputs/tables/01_log_pembersihan.txt` + alasan keputusanmu.
 
-### Minggu 2–3 (buddy check Peran 3)
+### Tahap 2–3 (buddy check Peran 3)
 11. Ambil **1–2 angka kunci** dari hasil Peran 3 dan hitung ulang di **Excel** (lihat resep di bawah). Kalau cocok → catat "sesuai" di log rapat. Kalau tidak → diskusikan, jangan langsung menyalahkan.
 
-### Minggu 4 (uji reproducibility)
+### Tahap 4 (uji reproducibility)
 12. Buka tiap notebook di sesi Colab baru → *Runtime → Restart session and run all*. Catat notebook mana yang error. Laporkan ke pemiliknya.
 
 ## Konsep yang harus kamu pahami
@@ -81,7 +81,7 @@ Kamu **koki persiapan**: sebelum chef (analis) memasak, kamu mencuci, memilah, d
 ## Kerja sama
 - **Memberi ke:** semua (data bersih), Peran 6 (log metodologi).
 - **Menerima dari:** — (kamu titik awal).
-- **Diperiksa oleh:** Peran 4. **Memeriksa:** Peran 3 (Minggu 2–3) dan uji reproducibility (Minggu 4).
+- **Diperiksa oleh:** Peran 4. **Memeriksa:** Peran 3 (Tahap 2–3) dan uji reproducibility (Tahap 4).
 
 ## ✅ Checklist
 - [ ] Skala 9 kolom + alasan
@@ -91,4 +91,4 @@ Kamu **koki persiapan**: sebelum chef (analis) memasak, kamu mencuci, memilah, d
 - [ ] Log pembersihan diberikan ke Peran 6
 - [ ] Notebook tersimpan ke GitHub
 - [ ] Buddy check Peran 3 (angka cocok) tercatat
-- [ ] Uji "Restart & Run all" semua notebook (Minggu 4)
+- [ ] Uji "Restart & Run all" semua notebook (Tahap 4)

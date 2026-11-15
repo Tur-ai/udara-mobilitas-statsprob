@@ -1,5 +1,5 @@
 # 2. Metodologi Pembersihan Data
-*(Pemilik: Peran 6 dengan bahan dari Peran 2 · Target: Minggu 1)*
+*(Pemilik: Peran 6 dengan bahan dari Peran 2 · Target: Tahap 1)*
 
 Bahan: `outputs/tables/01_log_pembersihan.txt`, `01_missing_values.csv`, `01_outlier_iqr.csv`, boxplot sebelum/sesudah.
 

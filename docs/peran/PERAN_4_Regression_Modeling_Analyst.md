@@ -5,7 +5,7 @@
 Kamu **pembuat model prediksi**. Kamu menjawab: *"Kalau volume kendaraan naik/ angin melemah, seberapa besar PM2.5 ikut berubah — dan seberapa bisa model ini dipercaya?"*
 Ini bagian yang paling mirip "membuat model AI": regresi linear adalah bentuk paling dasar *machine learning* — komputer belajar pola dari data lalu dipakai untuk memprediksi. Bedanya, di sini kita juga wajib **menguji apakah modelnya layak dipercaya** (uji asumsi), bukan hanya melihat akurasi.
 
-Beban terberatmu di **Minggu 4**; di Minggu 1–3 kamu lebih ringan, jadi manfaatkan untuk **belajar** dan **memeriksa pekerjaan orang lain** (buddy check).
+Beban terberatmu di **Tahap 4 (Hari ~4–10)**. Regresi **tidak menunggu** Peran 3: begitu data bersih resmi ada (Hari ~3), kamu langsung mulai. Di Tahap 1 kamu lebih ringan, jadi manfaatkan untuk **belajar** dan **memeriksa pekerjaan orang lain** (buddy check).
 
 ## Hasil akhir yang harus kamu serahkan
 | File | Isi |
@@ -18,16 +18,16 @@ Beban terberatmu di **Minggu 4**; di Minggu 1–3 kamu lebih ringan, jadi manfaa
 
 ## Langkah demi langkah
 
-### Minggu 1
+### Tahap 1
 1. Jalankan `00_Kenalan_Dengan_Data`.
 2. **Buddy check Peran 2:** buka `01_Data_Engineer` hasil kerjanya. Cek: (a) tiap keputusan punya alasan, (b) jumlah baris di log = jumlah baris di `Kelompok_12_data_bersih.csv`, (c) kamu setuju dengan cara menangani outlier? Catat hasilnya di log rapat.
 3. Mulai belajar konsep (bagian "Konsep"). Jalankan `03_Regression_Modeling` dengan data draf untuk melihat bentuk hasilnya.
 
-### Minggu 2–3
+### Tahap 2–3
 4. Pelajari lebih dalam: baca `summary` OLS sedikit demi sedikit. Targetmu: bisa menunjuk di tabel itu *di mana* R², uji-F, dan uji-t.
-5. Lakukan **buddy check Peran 1** (Minggu 4): memeriksa rekomendasi.
+5. Lakukan **buddy check Peran 1** (Tahap 4): memeriksa rekomendasi.
 
-### Minggu 4 (data bersih resmi wajib)
+### Tahap 4 — mulai begitu data bersih resmi ada (data bersih resmi wajib)
 6. Mulai sesi Colab baru; pastikan tertulis **DATA BERSIH RESMI**.
 7. **Bagian A — Korelasi:** jalankan, baca heatmap, tulis interpretasi.
 8. **Bagian B — Model:** jalankan model utama `PM2.5 ~ Volume + Angin`. Catat persamaan (otomatis tercetak).
@@ -81,7 +81,7 @@ Beban terberatmu di **Minggu 4**; di Minggu 1–3 kamu lebih ringan, jadi manfaa
 ## Kerja sama
 - **Menunggu dari:** Peran 2 (data bersih).
 - **Memberi ke:** Peran 1 (what-if), Peran 6 (interpretasi), Peran 5 (angka untuk scatter).
-- **Memeriksa:** Peran 2 (pembersihan, Minggu 1), Peran 1 (rekomendasi, Minggu 4). **Diperiksa oleh:** Peran 3.
+- **Memeriksa:** Peran 2 (pembersihan, Tahap 1), Peran 1 (rekomendasi, Tahap 4). **Diperiksa oleh:** Peran 3.
 
 ## ✅ Checklist
 - [ ] Matriks korelasi + heatmap + interpretasi

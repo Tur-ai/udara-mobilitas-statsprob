@@ -25,12 +25,12 @@ Satu orang = satu peran utama. Baca file panduan peranmu **dulu**, baru buka not
 
 | Peran | Tugas inti | Panduan | Notebook | Beban terberat |
 |---|---|---|---|---|
-| 1. **Project Lead** | Rumusan masalah, koordinasi, kesimpulan strategis & rekomendasi | [PERAN_1](docs/peran/PERAN_1_Project_Lead.md) | — (dokumen di `reports/draft/`) | Minggu 1 & 4 |
-| 2. **Data Engineer** | Skala ukur, missing values, outlier, **data bersih resmi** | [PERAN_2](docs/peran/PERAN_2_Data_Engineer.md) | `01_Data_Engineer` | Minggu 1 |
-| 3. **Probability & Inference Analyst** | Peluang, Normal, Binomial, CI, t-test, ANOVA, Chi-Square | [PERAN_3](docs/peran/PERAN_3_Probability_Inference_Analyst.md) | `02a_...` dan `02b_...` | Minggu 2 & 3 |
-| 4. **Regression & Modeling Analyst** | Korelasi, regresi berganda, uji asumsi residual | [PERAN_4](docs/peran/PERAN_4_Regression_Modeling_Analyst.md) | `03_Regression_Modeling` | Minggu 4 |
-| 5. **Data Visualizer & Editor** | Tabel deskriptif, grafik, tata letak laporan & poster | [PERAN_5](docs/peran/PERAN_5_Data_Visualizer_Editor.md) | `04_Data_Visualizer` | Minggu 1 & 4 |
-| 6. **Technical Writer & Presentation Lead** | Menerjemahkan hasil jadi bahasa awam & rekomendasi bisnis/kebijakan, naskah presentasi | [PERAN_6](docs/peran/PERAN_6_Technical_Writer_Presentation_Lead.md) | — (dokumen di `reports/draft/`) | Minggu 2–4 |
+| 1. **Project Lead** | Rumusan masalah, koordinasi, kesimpulan strategis & rekomendasi | [PERAN_1](docs/peran/PERAN_1_Project_Lead.md) | — (dokumen di `reports/draft/`) | Tahap 1 & 4 |
+| 2. **Data Engineer** | Skala ukur, missing values, outlier, **data bersih resmi** | [PERAN_2](docs/peran/PERAN_2_Data_Engineer.md) | `01_Data_Engineer` | Tahap 1 |
+| 3. **Probability & Inference Analyst** | Peluang, Normal, Binomial, CI, t-test, ANOVA, Chi-Square | [PERAN_3](docs/peran/PERAN_3_Probability_Inference_Analyst.md) | `02a_...` dan `02b_...` | Tahap 2 & 3 |
+| 4. **Regression & Modeling Analyst** | Korelasi, regresi berganda, uji asumsi residual | [PERAN_4](docs/peran/PERAN_4_Regression_Modeling_Analyst.md) | `03_Regression_Modeling` | Tahap 4 |
+| 5. **Data Visualizer & Editor** | Tabel deskriptif, grafik, tata letak laporan & poster | [PERAN_5](docs/peran/PERAN_5_Data_Visualizer_Editor.md) | `04_Data_Visualizer` | Tahap 1 & 4 |
+| 6. **Technical Writer & Presentation Lead** | Menerjemahkan hasil jadi bahasa awam & rekomendasi bisnis/kebijakan, naskah presentasi | [PERAN_6](docs/peran/PERAN_6_Technical_Writer_Presentation_Lead.md) | — (dokumen di `reports/draft/`) | Tahap 2–4 |
 
 > **Analogi proyek distro Linux:** Project Lead = *maintainer* yang memutuskan arah & menggabungkan kerja; setiap peran = *pemilik modul* (satu modul, satu pemilik, supaya tidak tabrakan); sistem **saling periksa** (buddy check) = *code review*; GitHub = *repository* tempat semua digabung.
 > **Catatan:** proyek ini bukan melatih model AI "ajaib". Regresi linear (Peran 4) adalah bentuk paling dasar dari *machine learning*: model belajar pola dari data lalu dipakai memprediksi. Fondasi statistik yang kalian pelajari di sini dipakai di semua model AI.
@@ -64,14 +64,28 @@ Satu orang = satu peran utama. Baca file panduan peranmu **dulu**, baru buka not
 
 ---
 
+## 📅 Jadwal ringkas (2 minggu)
+
+| Hari | Fokus |
+|---|---|
+| 1–3 | **Tahap 1:** bersihkan data (Peran 2) + rumusan masalah (Peran 1) + tabel/grafik deskriptif |
+| 3–6 | **Tahap 2:** peluang, Normal, Binomial (Peran 3) — Regresi (Peran 4) mulai paralel |
+| 5–9 | **Tahap 3:** CI + t-test + ANOVA + Chi-Square (Peran 3) |
+| 4–10 | **Tahap 4:** regresi + asumsi (Peran 4), rekomendasi (Peran 1 & 6) |
+| 11–14 | Laporan PDF, poster, latihan Gallery Walk |
+
+Detail & siapa menunggu siapa: [`docs/03_jadwal_dan_alur_kerja.md`](docs/03_jadwal_dan_alur_kerja.md). Hitung mundur dari deadline dosen!
+
+---
+
 ## 🗺️ Alur kerja & ketergantungan
 
 ```mermaid
 flowchart LR
-    L[Peran 1: Setup repo & rumusan masalah] --> D[Peran 2: Bersihkan data<br/>Minggu 1]
-    D -->|data/Kelompok_12_data_bersih.csv| P[Peran 3: Peluang & inferensi<br/>Minggu 2-3]
-    D -->|data bersih| R[Peran 4: Regresi<br/>Minggu 4]
-    D -->|data bersih| V[Peran 5: Tabel & grafik<br/>Minggu 1 & 4]
+    L[Peran 1: Setup repo & rumusan masalah] --> D[Peran 2: Bersihkan data<br/>Tahap 1]
+    D -->|data/Kelompok_12_data_bersih.csv| P[Peran 3: Peluang & inferensi<br/>Tahap 2-3]
+    D -->|data bersih| R[Peran 4: Regresi<br/>Tahap 4]
+    D -->|data bersih| V[Peran 5: Tabel & grafik<br/>Tahap 1 & 4]
     P --> W[Peran 6: Terjemahkan ke bahasa awam]
     R --> W
     V --> W
@@ -79,7 +93,7 @@ flowchart LR
     L2 --> OUT[Laporan PDF + Poster<br/>disusun belakangan]
 ```
 
-**Titik kritis:** semua orang menunggu **data bersih resmi** dari Peran 2. Sampai itu ada, notebook memakai *DRAF SEMENTARA* (cukup untuk latihan, bukan untuk hasil final). Peran 2 sebaiknya selesai dalam **3–4 hari pertama**.
+**Titik kritis:** semua orang menunggu **data bersih resmi** dari Peran 2. Sampai itu ada, notebook memakai *DRAF SEMENTARA* (cukup untuk latihan, bukan untuk hasil final). Peran 2 harus selesai paling lambat **Hari 3**.
 
 ---
 

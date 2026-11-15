@@ -8,15 +8,15 @@ Dalam analogi proyek Linux: kamu *maintainer* yang menjaga repo tetap rapi dan a
 ## Hasil akhir yang harus kamu serahkan
 | File | Isi | Kapan |
 |---|---|---|
-| Repo GitHub siap pakai | struktur ter-upload, placeholder diganti, 5 kolaborator masuk | Minggu 1, hari 1 |
+| Repo GitHub siap pakai | struktur ter-upload, placeholder diganti, 5 kolaborator masuk | Tahap 1, hari 1 |
 | `reports/draft/00_halaman_pengesahan.md` | nama, NIM, peran, % kontribusi, tanda tangan | diisi bertahap, final di akhir |
-| `reports/draft/01_latar_belakang_dan_rumusan_masalah.md` | konteks, rumusan masalah, tujuan, variabel, batasan | Minggu 1 |
-| `reports/draft/04_kesimpulan_dan_rekomendasi.md` | kesimpulan strategis + **≥ 3 rekomendasi konkret** | Minggu 4 |
-| `reports/draft/05_log_rapat_dan_review.md` | notulen rapat mingguan + catatan buddy check | tiap minggu |
+| `reports/draft/01_latar_belakang_dan_rumusan_masalah.md` | konteks, rumusan masalah, tujuan, variabel, batasan | Tahap 1 |
+| `reports/draft/04_kesimpulan_dan_rekomendasi.md` | kesimpulan strategis + **≥ 3 rekomendasi konkret** | Tahap 4 |
+| `reports/draft/05_log_rapat_dan_review.md` | notulen rapat singkat + catatan buddy check | tiap rapat |
 
 ## Langkah demi langkah
 
-### Minggu 1
+### Tahap 1
 1. **Setup repo** — ikuti `docs/02_panduan_github_colab.md` Bagian 1–3. Pastikan semua anggota bisa membuka notebook `00_Kenalan_Dengan_Data` di Colab. *Tes nyata:* minta tiap orang mengirim screenshot "Setup selesai".
 2. **Rapat kick-off 30 menit:** bagikan peran (satu orang satu peran), sepakati jadwal (`docs/03_jadwal_dan_alur_kerja.md`), sepakati cara komunikasi (grup chat) dan jam rapat mingguan.
 3. **Isi `01_latar_belakang_dan_rumusan_masalah.md`.** Template sudah ada. Intinya:
@@ -27,13 +27,13 @@ Dalam analogi proyek Linux: kamu *maintainer* yang menjaga repo tetap rapi dan a
    - *Batasan:* data **observasional** — kita bisa melihat hubungan, tidak otomatis membuktikan sebab-akibat.
 4. **Tetapkan kerangka konsisten:** nama variabel, singkatan, dan satuan yang sama dipakai semua orang (mis. selalu "Indeks PM2.5", bukan kadang "PM25").
 
-### Minggu 2–3 (mode koordinator)
-5. Tiap rapat mingguan: tanya 3 hal — *sudah selesai apa, macet di mana, menunggu siapa.* Catat di log rapat.
+### Tahap 2–3 (mode koordinator)
+5. Tiap rapat singkat (tiap 3–4 hari): tanya 3 hal — *sudah selesai apa, macet di mana, menunggu siapa.* Catat di log rapat.
 6. Pantau GitHub: apakah hasil sudah di-upload? Apakah buddy check sudah dijalankan?
-7. **Jaga agar Peran 3 tidak kewalahan** (beban terberat di Minggu 2–3): tanyakan apakah ada bagian yang bisa dibantu cek oleh orang lain.
+7. **Jaga agar Peran 3 tidak kewalahan** (beban terberat di Tahap 2–3): tanyakan apakah ada bagian yang bisa dibantu cek oleh orang lain.
 8. Mulai kumpulkan **temuan sementara** ke `04_kesimpulan_dan_rekomendasi.md` (bagian "Catatan temuan") setiap kali satu hasil keluar.
 
-### Minggu 4 (kesimpulan strategis)
+### Tahap 4 (kesimpulan strategis)
 9. Setelah Peran 3 dan 4 selesai, baca ringkasan hasil: `outputs/tables/03_ringkasan_uji_hipotesis.csv`, `04_regresi_koefisien.csv`, `04_regresi_skenario_prediksi.csv`.
 10. Susun kesimpulan dengan **rantai "Temuan → Bukti → Arti → Rekomendasi"**:
 
@@ -54,8 +54,8 @@ Dalam analogi proyek Linux: kamu *maintainer* yang menjaga repo tetap rapi dan a
 ## Kesalahan umum
 - Rekomendasi tanpa angka atau terlalu umum.
 - Mengklaim sebab-akibat dari data observasional.
-- Menumpuk semua pekerjaan di Peran 3 lalu panik di Minggu 3.
-- Menunda laporan/poster ke 2 hari terakhir. (Susun kerangka laporan sejak Minggu 3!)
+- Menumpuk semua pekerjaan di Peran 3 lalu panik di Tahap 3.
+- Menunda laporan/poster ke 2 hari terakhir. (Susun kerangka laporan sejak Tahap 3!)
 - Persentase kontribusi dibagi rata "asal" padahal kerja tidak merata — dosen bisa menanyakannya.
 
 ## Pertanyaan yang mungkin ditanya dosen (siapkan jawabanmu)
@@ -66,7 +66,7 @@ Dalam analogi proyek Linux: kamu *maintainer* yang menjaga repo tetap rapi dan a
 5. Bagaimana kalian membagi kerja? Siapa mengerjakan apa?
 
 ## Kerja sama
-- **Menerima dari:** semua peran (hasil mingguan).
+- **Menerima dari:** semua peran (hasil tiap tahap).
 - **Memberi ke:** Peran 6 (bahan rekomendasi), Peran 5 (pesan utama untuk poster).
 - **Diperiksa oleh:** Peran 4 (rekomendasi didukung angka).
 
@@ -74,7 +74,7 @@ Dalam analogi proyek Linux: kamu *maintainer* yang menjaga repo tetap rapi dan a
 - [ ] Repo siap, placeholder diganti, 5 kolaborator masuk & bisa membuka Colab
 - [ ] Peran terbagi + jadwal disepakati
 - [ ] Latar belakang & rumusan masalah selesai
-- [ ] Rapat mingguan tercatat
+- [ ] Rapat singkat tercatat
 - [ ] ≥ 3 rekomendasi konkret (siapa-apa-di mana-kapan-indikator) dengan angka pendukung
 - [ ] Halaman pengesahan terisi (kontribusi total 100%) & ditandatangani semua
 - [ ] Angka di laporan = poster = notebook

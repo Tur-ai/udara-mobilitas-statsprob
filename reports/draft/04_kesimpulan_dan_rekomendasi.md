@@ -1,8 +1,8 @@
 # 4. Kesimpulan & Rekomendasi
-*(Pemilik: Peran 1, dihaluskan Peran 6 · Target: Minggu 4)*
+*(Pemilik: Peran 1, dihaluskan Peran 6 · Target: Tahap 4)*
 
 ## Catatan temuan (diisi bertahap)
-| Minggu | Temuan | Sumber file |
+| Tahap | Temuan | Sumber file |
 |---|---|---|
 | | | |
 

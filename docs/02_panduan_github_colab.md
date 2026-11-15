@@ -65,7 +65,7 @@ Dilakukan **tiap anggota sendiri** (jangan berbagi token lewat grup chat!):
 
 1. Di GitHub: foto profil → **Settings** → **Developer settings** (paling bawah di kiri) → **Personal access tokens** → **Tokens (classic)** → **Generate new token (classic)**.
    - *Note:* `colab-proyek-udara`
-   - *Expiration:* 60 days (cukup untuk 4 minggu + cadangan)
+   - *Expiration:* 30 days (cukup untuk 2 minggu + cadangan)
    - Centang **`repo`** → **Generate token** → **salin tokennya sekarang** (hanya tampil sekali).
    > Kenapa *classic*? Token "fine-grained" tidak bisa mengakses repo milik orang lain meski kamu kolaborator, jadi untuk repo yang dimiliki Project Lead, token classic yang berfungsi.
 2. Di Colab, buka notebook apa saja → klik ikon **🔑 Secrets** di sisi kiri → **Add new secret**:
@@ -88,7 +88,7 @@ Kalau token merepotkan, repo boleh *public* selama pengerjaan **dengan sadar ris
 4. Isi bagian bertanda **✏️ ISI** dengan kata-katamu sendiri (klik dua kali sel teksnya untuk mengedit).
 5. Di sel paling bawah, `unduh_hasil(...)` membuat ZIP hasil dan mengunduhnya ke laptop.
 6. Unggah ke GitHub (Bagian 5) dan simpan notebook (Bagian 6).
-7. **Kabari grup**: "Hasil Minggu 2 sudah di-upload ✅".
+7. **Kabari grup**: "Hasil Tahap 2 sudah di-upload ✅".
 
 ### Hal yang perlu diketahui tentang Colab
 - **Sesi bisa mati** kalau didiamkan lama. Semua variabel hilang, **file di sesi itu juga hilang** → makanya hasil harus segera diunduh & di-upload.
@@ -104,7 +104,7 @@ Setelah mengunduh `hasil_xxx.zip`:
 1. **Unzip** di laptop. Di dalamnya ada folder `outputs/` (dan untuk Peran 2 juga `data/`).
 2. Buka repo di GitHub → **Add file → Upload files**.
 3. **Seret folder `outputs`** (dan `data` bila ada) ke jendela browser. Struktur folder otomatis terjaga: file masuk ke `outputs/tables/` dan `outputs/figures/` yang benar.
-4. Commit message yang baik: `Minggu 2: hasil peluang & distribusi (Peran 3)`.
+4. Commit message yang baik: `Tahap 2: hasil peluang & distribusi (Peran 3)`.
 5. Klik **Commit changes** (langsung ke `main` sudah oke karena tiap orang menulis file yang berbeda).
 
 ---
@@ -125,7 +125,7 @@ Setelah menyimpan, **cek di GitHub** bahwa tanggal edit file berubah.
 1. **Satu file = satu pemilik** (tabel pemilik ada di `docs/03_jadwal_dan_alur_kerja.md`).
 2. **Jangan mengedit `data/Kelompok_12_Tema_B_Kualitas_Udara.csv`** (data asli) dan `src/helpers.py` tanpa izin Project Lead.
 3. **Jangan membuka dan menyimpan notebook milik orang lain** ke GitHub — walau cuma "mencoba".
-4. Dua orang tidak boleh meng-upload **file dengan nama yang sama** pada waktu yang sama. Karena nama file sudah dibedakan per minggu/peran, ini jarang terjadi.
+4. Dua orang tidak boleh meng-upload **file dengan nama yang sama** pada waktu yang sama. Karena nama file sudah dibedakan per tahap/peran, ini jarang terjadi.
 5. Ingin tahu siapa mengubah apa? Buka file di GitHub → **History**.
 6. **Salah upload?** Jangan panik: file → **History** → buka versi sebelumnya → salin isinya, atau minta Project Lead memulihkan.
 

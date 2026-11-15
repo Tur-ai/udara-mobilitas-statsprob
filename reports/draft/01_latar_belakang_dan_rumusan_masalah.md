@@ -1,5 +1,5 @@
 # 1. Latar Belakang & Rumusan Masalah
-*(Pemilik: Peran 1 · Target: Minggu 1)*
+*(Pemilik: Peran 1 · Target: Tahap 1)*
 
 ## 1.1 Latar belakang
 *(2–3 paragraf: kenapa kualitas udara/PM2.5 penting bagi kota; kaitan dengan kendaraan dan cuaca. Cantumkan sumber tepercaya.)*
