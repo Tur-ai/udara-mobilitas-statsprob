@@ -1,0 +1,6 @@
+﻿Kejadian,Jumlah_Kasus,Nilai_Peluang,Persentase (%)
+P(Status_Udara = Tidak Sehat),27,0.0783,7.83
+P(Jam_Sibuk = Ya),138,0.4,40.0
+P(Indeks_PM25 > 55),77,0.2232,22.32
+P(Tidak Sehat | Jam Sibuk = Ya),12,0.087,8.7
+P(Tidak Sehat | Jam Sibuk = Tidak),15,0.0725,7.25
