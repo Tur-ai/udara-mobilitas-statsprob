@@ -1,0 +1,6 @@
+﻿,Sebelum,Sebelum,Sebelum,Sebelum,Sebelum,Sesudah,Sesudah,Sesudah,Sesudah,Sesudah
+,count,mean,std,min,max,count,mean,std,min,max
+Volume_Kendaraan,347.0,408.24,164.17,50.0,813.0,345.0,408.04,163.9,50.0,813.0
+Kecepatan_Angin_KmJ,347.0,10.08,6.47,1.0,35.0,345.0,9.84,5.91,1.0,24.25
+Suhu_Celcius,347.0,28.67,2.43,21.0,35.6,345.0,28.67,2.42,22.18,35.17
+Indeks_PM25,347.0,43.12,23.19,5.0,280.5,345.0,41.85,16.03,5.0,77.9

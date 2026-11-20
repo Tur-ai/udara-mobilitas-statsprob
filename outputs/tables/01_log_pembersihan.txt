@@ -1,0 +1,7 @@
+LOG PEMBERSIHAN DATA - Kelompok 12
+Baris awal                         : 350
+Baris PM2.5 kosong (dihapus)       : 3
+Sel angin kosong (isi median 8.80) : 3
+Baris status vs PM2.5 tidak konsisten (dihapus) : 2
+Strategi outlier                   : {'Volume_Kendaraan': 'biarkan', 'Kecepatan_Angin_KmJ': 'winsor', 'Suhu_Celcius': 'winsor', 'Indeks_PM25': 'biarkan'}
+Baris akhir                        : 345

@@ -1,29 +1,14 @@
-# 1. Latar Belakang & Rumusan Masalah
-*(Pemilik: Peran 1 · Target: Tahap 1)*
+# Latar belakang dan rumusan masalah
 
-## 1.1 Latar belakang
-*(2–3 paragraf: kenapa kualitas udara/PM2.5 penting bagi kota; kaitan dengan kendaraan dan cuaca. Cantumkan sumber tepercaya.)*
+Mobilitas perkotaan berubah menurut hari, lokasi, dan waktu. Jumlah kendaraan memberikan ukuran aktivitas lalu lintas, sementara angin menggambarkan kondisi yang dapat memengaruhi penyebaran partikel. Pusat Kota, Kawasan Kampus, dan Pinggiran memberi tiga konteks untuk membandingkan kualitas udara dan menentukan prioritas pengukuran.
 
-TODO
+Proyek ini menggunakan `Kelompok_12_Tema_B_Kualitas_Udara.csv`, berisi 350 observasi. `Indeks_PM25` digunakan sebagai ukuran numerik kualitas udara dalam skala dataset. `Status_Udara` merangkum ukuran itu ke dalam kategori Baik, Sedang, dan Tidak Sehat. Variabel lain mencakup volume kendaraan, kecepatan angin, suhu, jenis hari, dan indikator jam sibuk.
 
-## 1.2 Rumusan masalah
-1. Apakah rata-rata Indeks PM2.5 berbeda antara hari kerja dan akhir pekan?
-2. Apakah rata-rata Indeks PM2.5 berbeda di ketiga zona lokasi?
-3. Apakah status udara berkaitan dengan jam sibuk? Berapa peluang udara "Tidak Sehat" saat jam sibuk?
-4. Bagaimana pengaruh volume kendaraan dan kecepatan angin terhadap Indeks PM2.5?
+## Rumusan masalah
 
-*(Boleh ditulis ulang dengan bahasa tim.)*
+1. Apakah rata-rata Indeks_PM25 berbeda antara hari kerja dan akhir pekan? Uji dengan uji-t Welch dua sampel independen.
+2. Apakah rata-rata Indeks_PM25 berbeda antara Pusat Kota, Kawasan Kampus, dan Pinggiran? Uji dengan ANOVA satu arah dan identifikasi pasangan dengan Tukey.
+3. Apakah Status_Udara berasosiasi dengan Jam_Sibuk? Uji dengan Chi-Square dan bandingkan peluang Tidak Sehat di dalam dan di luar jam sibuk.
+4. Bagaimana volume kendaraan dan kecepatan angin berasosiasi dengan Indeks_PM25 setelah mengontrol suhu dan prediktor lain dalam regresi linear berganda?
 
-## 1.3 Tujuan
-*(satu tujuan per rumusan masalah)*
-
-TODO
-
-## 1.4 Data
-*(ringkas dari data/README.md: sumber, jumlah observasi, variabel)*
-
-TODO
-
-## 1.5 Batasan
-- Data bersifat observasional: hasil menunjukkan keterkaitan, bukan bukti sebab-akibat mutlak.
-- *(tambahkan batasan lain: periode data, cara pengukuran, dll.)*
+Tujuan analisis adalah mengukur perbedaan yang terlihat dalam sampel, menilai ketidakpastian, dan merumuskan opsi pemantauan serta uji coba pengelolaan mobilitas. Analisis menggunakan observasi yang lolos pembersihan. Cakupan kota dan periode pengamatan tidak diketahui. Tanpa tanggal dan identitas stasiun, independensi serta representativitas belum dapat dipastikan. Desain observasional dan kovariat terbatas membatasi klaim sebab-akibat. Ambang 35 dan 65 mengikuti kamus dataset. Satuan dan kalibrasi alat belum terdokumentasi.

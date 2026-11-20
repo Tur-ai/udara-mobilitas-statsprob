@@ -1,0 +1,5 @@
+﻿Variabel,Q1,Q3,IQR,Batas_Bawah,Batas_Atas,Jumlah_Outlier
+Volume_Kendaraan,289.5,532.5,243.0,-75.0,897.0,0
+Kecepatan_Angin_KmJ,5.5,13.0,7.5,-5.75,24.25,15
+Suhu_Celcius,27.05,30.3,3.25,22.18,35.17,2
+Indeks_PM25,29.9,54.15,24.25,-6.48,90.52,2

@@ -1,0 +1,10 @@
+﻿Kolom,Skala,Alasan
+ID_Observasi,Nominal,Hanya label pengenal baris; tidak ada urutan/hitungan
+Zona_Lokasi,Nominal,3 kategori nama tempat tanpa urutan
+Jenis_Hari,Nominal,2 kategori tanpa urutan (biner)
+Jam_Sibuk,Nominal,Ya/Tidak tanpa urutan (biner)
+Volume_Kendaraan,Rasio,Hasil hitungan; 0 kendaraan = benar-benar tidak ada kendaraan
+Kecepatan_Angin_KmJ,Rasio,Ukuran fisik; 0 km/jam = tidak ada angin
+Suhu_Celcius,Interval,0 derajat C bukan 'tidak ada suhu' (nol bersifat sembarang); 20 C bukan 'dua kali' 10 C
+Indeks_PM25,Rasio,Konsentrasi; 0 = tidak ada partikel
+Status_Udara,Ordinal,"Ada urutan Baik < Sedang < Tidak Sehat, tapi jarak antar kelas tidak sama"
