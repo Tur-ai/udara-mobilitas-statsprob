@@ -1,0 +1,11 @@
+﻿Variabel,Kategori,Frekuensi,Persen
+Zona_Lokasi,Pusat Kota,136,39.4
+Zona_Lokasi,Kawasan Kampus,130,37.7
+Zona_Lokasi,Pinggiran,79,22.9
+Jenis_Hari,Hari Kerja,229,66.4
+Jenis_Hari,Akhir Pekan,116,33.6
+Jam_Sibuk,Tidak,207,60.0
+Jam_Sibuk,Ya,138,40.0
+Status_Udara,Sedang,192,55.7
+Status_Udara,Baik,126,36.5
+Status_Udara,Tidak Sehat,27,7.8
