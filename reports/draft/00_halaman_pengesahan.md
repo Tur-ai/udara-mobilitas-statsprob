@@ -12,7 +12,7 @@
 | 1 | Azhar Faturrahman - 257006111023 | Project Lead | ...% |
 | 2 | Sami| Data Engineer | ...% |
 | 3 | | Probability & Inference | ...% | _____ |
-| 4 | | Regression & Modeling | ...% | _____ |
+| 4 | Muhammad Alfarizi Hudmawan - 257006111085 | Regression & Modeling | ...% |
 | 5 | | Data Visualizer & Editor | ...% | _____ |
 | 6 | | Technical Writer & Presentation Lead | ...% | _____ |
 
